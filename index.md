@@ -22,11 +22,16 @@ layout: default
   <h2 id="projects-title">Projects</h2>
   <p>프로젝트별 목표와 역할, 사용 기술 및 결과를 소개합니다.</p>
   <div class="project-grid">
-    <article class="project-card">
-      <p class="project-card__eyebrow">PORTFOLIO</p>
-      <h3>프로젝트 정보를 준비 중입니다</h3>
-      <p class="project-card__description">프로젝트의 목표, 맡은 역할, 사용 기술과 결과를 정리해 추가할 예정입니다.</p>
-    </article>
+    <a class="project-card" href="https://github.com/josibak/rag_agent">
+      <p class="project-card__eyebrow">LANGGRAPH · FASTAPI</p>
+      <h3>문서 기반 질의응답 RAG Agent</h3>
+      <p class="project-card__description">문서를 업로드하면 관련 내용을 검색해 질문에 답하는 RAG 기반 API 서버입니다.</p>
+    </a>
+    <a class="project-card" href="https://github.com/josibak/AI-Interview-Agent">
+      <p class="project-card__eyebrow">LLM · GRADIO</p>
+      <h3>AI 면접 Agent</h3>
+      <p class="project-card__description">AI 면접관과 대화하며 면접을 연습하고, 답변 평가와 맞춤형 피드백을 받을 수 있습니다.</p>
+    </a>
   </div>
 </section>
 
