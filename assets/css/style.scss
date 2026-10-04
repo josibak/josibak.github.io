@@ -154,10 +154,20 @@ p {
 }
 
 .project-card {
+  display: block;
   padding: 1.25rem;
   border: 1px solid var(--color-border);
   border-radius: 0.75rem;
+  color: inherit;
   background: var(--color-surface);
+  text-decoration: none;
+  transition: border-color 150ms ease, background-color 150ms ease;
+}
+
+.project-card:hover,
+.project-card:focus-visible {
+  border-color: var(--color-accent);
+  background: #edf4f2;
 }
 
 .project-card h3 {
