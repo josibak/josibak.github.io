@@ -27,6 +27,11 @@ a:focus {
   color: var(--color-accent-dark);
 }
 
+a:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
 h1,
 h2,
 h3 {
@@ -79,7 +84,7 @@ h2 {
   font-size: 1.1rem;
 }
 
-.project-card p:last-child {
+.project-card__description {
   margin-bottom: 0;
   color: var(--color-muted);
 }

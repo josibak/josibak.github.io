@@ -26,7 +26,7 @@ layout: default
   <article class="project-card">
     <p class="project-card__eyebrow">PORTFOLIO</p>
     <h3>프로젝트 정보를 준비 중입니다</h3>
-    <p>프로젝트의 목표, 맡은 역할, 사용 기술과 결과를 정리해 추가할 예정입니다.</p>
+    <p class="project-card__description">프로젝트의 목표, 맡은 역할, 사용 기술과 결과를 정리해 추가할 예정입니다.</p>
   </article>
 </div>
 
