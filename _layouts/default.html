@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description | escape }}">
+    <title>{{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="portfolio">
+      <aside class="sidebar">
+        <a class="profile" href="#home" aria-label="Home">
+          <img
+            class="profile__photo"
+            src="https://github.com/user-attachments/assets/5ee478d6-2f7a-45b4-92cb-00cf704b93c7"
+            alt="조시현 프로필 사진"
+          >
+          <span class="profile__name">조시현</span>
+        </a>
+        <nav class="section-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </aside>
+      <main class="content">
+        {{ content }}
+      </main>
+    </div>
+  </body>
+</html>
